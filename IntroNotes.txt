@@ -1,0 +1,26 @@
+1. How do we run code the code in our project?
+---> go run ->NAME OF FILE<- EX: go run main.go
+go run complies and executes one or two files
+go build compiles a bunch og go souece code files (kind of like gcc for C) and then to run/execute this you type ./executable file (i.e. ./main)
+
+2. What does 'package main' mean?
+Package == Project == Workspace
+package main defines a package that can be complied and executed MUST HAVE A FUNC CALLED MAIN "main is special"
+another package that is not package main is a reusbale package, defines a package that can be used a depedency (helper code)
+
+3. What does 'import "fmt"' mean?
+It means give the current package you are working access to another package called "fmt"
+"fmt" is a standard library package that is inclided in the Go language
+"fmt" is most commonly used to print stuff out
+kind of like "import stdio.h" (header files in C)
+
+4. What's that 'func' thing?
+func is short for 'function'
+func tells Go we're about to declare a function
+the 'main' after func sets the name of the function
+the '()' after main is the list of argumenets to pass to the function
+
+5. How is the main.go file organized?
+    1. Package declaration
+    2. Import other packages that we need
+    3. Declare function, tell Go to do things
