@@ -27,3 +27,6 @@ the '()' after main is the list of argumenets to pass to the function
 
 Array: fixed length list of things
 Slice: An array that can grow or shrink 
+
+Structs: Data Structure, collection of properties that are related together
+
